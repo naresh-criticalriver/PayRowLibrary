@@ -46,9 +46,9 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
 
-                groupId = 'com.example.payrowlibrary'
-                artifactId = 'payrow-library'
-                version = '2.1.0'
+                groupId = 'com.github.naresh-criticalriver'
+                artifactId = 'RayRowLibrary'
+                version = '2.2.0'
             }
         }
     }

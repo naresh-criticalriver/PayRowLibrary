@@ -9,13 +9,17 @@ class DashboardActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dashboard)
+
+        val res = getData(this);
     }
     fun  showToast(msg: String){
         Toast.makeText(this,msg, Toast.LENGTH_LONG).show()
     }
-    /*fun getData(): SimpleResponse{
-        val  res = SimpleResponse("SURESH", "33")
+    companion object {
+        fun getData(activity: DashboardActivity): SimpleResponse {
 
-        return res
-    }*/
+            return SimpleResponse("SURESH", "33")
+        }
+    }
+
 }

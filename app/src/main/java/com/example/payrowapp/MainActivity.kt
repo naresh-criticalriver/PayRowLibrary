@@ -9,7 +9,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        DashboardActivity().showToast("Hello World")
+//        DashboardActivity().showToast("Hello World")
+        DashboardActivity.displayToast("Toast Msg",this);
         Utils(this).showToast("Welcome")
     }
 }

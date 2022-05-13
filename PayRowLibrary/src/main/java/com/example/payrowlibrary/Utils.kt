@@ -11,9 +11,8 @@ class Utils(val context: Context) {
     }
 
 
-    fun  getData(msg: String): SimpleResponse{
-        val  res = SimpleResponse("SURESH", "33")
+    fun  getData(response: SimpleResponse): SimpleResponse{
 
-        return  res;
+        return  response
     }
 }

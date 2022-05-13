@@ -13,4 +13,9 @@ class DashboardActivity : AppCompatActivity() {
     fun  showToast(msg: String){
         Toast.makeText(this,msg, Toast.LENGTH_LONG).show()
     }
+    /*fun getData(): SimpleResponse{
+        val  res = SimpleResponse("SURESH", "33")
+
+        return res
+    }*/
 }

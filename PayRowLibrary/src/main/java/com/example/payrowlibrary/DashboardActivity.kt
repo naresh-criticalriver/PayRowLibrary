@@ -14,4 +14,9 @@ class DashboardActivity : AppCompatActivity() {
       val  ss = SimpleResponse("SURESH", "33")
         Toast.makeText(this,""+ss.name, Toast.LENGTH_LONG).show()
     }
+
+    fun proguardTest(ss: SimpleResponse): SimpleResponse{
+
+        return  ss;
+    }
 }

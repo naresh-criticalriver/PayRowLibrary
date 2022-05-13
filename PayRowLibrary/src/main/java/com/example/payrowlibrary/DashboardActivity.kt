@@ -3,6 +3,7 @@ package com.example.payrowlibrary
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import com.example.payrowlibrary.response.SimpleResponse
 
 class DashboardActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -10,6 +11,7 @@ class DashboardActivity : AppCompatActivity() {
         setContentView(R.layout.activity_dashboard)
     }
     fun  showToast(msg: String){
-        Toast.makeText(this,msg, Toast.LENGTH_LONG).show()
+      val  ss = SimpleResponse("SURESH", "33")
+        Toast.makeText(this,""+ss.name, Toast.LENGTH_LONG).show()
     }
 }

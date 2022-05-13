@@ -11,8 +11,10 @@ class Utils(val context: Context) {
     }
 
 
-    fun  getData(response: SimpleResponse): SimpleResponse{
+    companion object {
+        fun  getData(response: SimpleResponse): SimpleResponse{
 
-        return  response
+            return  response
+        }
     }
 }

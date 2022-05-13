@@ -12,7 +12,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         DashboardActivity().showToast("Hello World")
         Utils(this).showToast("Welcome")
+
         val  res = SimpleResponse("SURESH", "33")
-        Utils(this).getData(res)
+        Utils.getData(res)
     }
 }

@@ -15,8 +15,11 @@ class DashboardActivity : AppCompatActivity() {
         Toast.makeText(this,""+ss.name, Toast.LENGTH_LONG).show()
     }
 
-    fun proguardTest(ss: SimpleResponse): SimpleResponse{
+    companion object{
+        fun proguardTest(ss: SimpleResponse): SimpleResponse{
 
-        return  ss;
+            return  ss;
+        }
     }
+
 }

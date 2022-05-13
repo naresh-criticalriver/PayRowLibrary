@@ -1,5 +1,6 @@
 package com.example.payrowlibrary
 
+import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -14,17 +15,14 @@ class DashboardActivity : AppCompatActivity() {
     fun  showToast(msg: String){
         Toast.makeText(this,msg, Toast.LENGTH_LONG).show()
     }
-    /*companion object Test{
-        fun getData(activity: DashboardActivity): SimpleResponse {
-
-            return SimpleResponse("SURESH", "33")
-        }
-    }*/
 
     fun getData(res: SimpleResponse): SimpleResponse {
 
-
         return res;
     }
-
+    companion object{
+        fun specialToast(context: Context, string: String) {
+            Toast.makeText(context, string, Toast.LENGTH_LONG).show()
+        }
+    }
 }

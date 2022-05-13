@@ -11,6 +11,8 @@ class Utils(val context: Context) {
 
     }
 
+
+
    /* fun getData(res: SimpleResponse): SimpleResponse {
         return  res
     }*/

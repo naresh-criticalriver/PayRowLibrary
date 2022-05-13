@@ -10,14 +10,18 @@ class DashboardActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dashboard)
     }
-    fun  showToast(msg: String){
+    fun  getDatax(msg: String): SimpleResponse{
       val  ss = SimpleResponse("SURESH", "33")
-        Toast.makeText(this,""+ss.name, Toast.LENGTH_LONG).show()
+        //Toast.makeText(this,""+ss.name, Toast.LENGTH_LONG).show()
+
+        val res: SimpleResponse = proguardTest(ss);
+
+        return  res;
     }
+
 
     companion object{
         fun proguardTest(ss: SimpleResponse): SimpleResponse{
-
             return  ss;
         }
     }

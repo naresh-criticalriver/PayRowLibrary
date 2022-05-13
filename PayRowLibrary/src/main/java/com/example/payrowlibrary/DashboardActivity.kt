@@ -15,7 +15,7 @@ class DashboardActivity : AppCompatActivity() {
     fun  showToast(msg: String){
         Toast.makeText(this,msg, Toast.LENGTH_LONG).show()
     }
-    companion object {
+    companion object Test{
         fun getData(activity: DashboardActivity): SimpleResponse {
 
             return SimpleResponse("SURESH", "33")

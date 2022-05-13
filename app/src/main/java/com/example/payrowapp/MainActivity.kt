@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
 
 
         val  res = SimpleResponse("SURESH", "33")
-        Utils(this).getData(res)
+
+        DashboardActivity().getData(res);
     }
 }

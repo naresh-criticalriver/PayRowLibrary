@@ -14,6 +14,6 @@ class MainActivity : AppCompatActivity() {
         Utils(this).showToast("Welcome")
 
         val  res = SimpleResponse("SURESH", "33")
-        Utils.getData(res)
+        Utils(this).getData(res)
     }
 }

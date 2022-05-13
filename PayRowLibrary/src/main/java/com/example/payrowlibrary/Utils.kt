@@ -8,13 +8,13 @@ class Utils(val context: Context) {
 
     fun  showToast(msg: String){
         Toast.makeText(context,msg, Toast.LENGTH_LONG).show()
+
+    }
+
+    fun getData(res: SimpleResponse): SimpleResponse {
+        return  res
     }
 
 
-    companion object {
-        fun  getData(response: SimpleResponse): SimpleResponse{
 
-            return  response
-        }
-    }
 }

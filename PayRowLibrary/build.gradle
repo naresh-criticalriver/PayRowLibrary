@@ -73,7 +73,7 @@ afterEvaluate {
 
                 groupId = 'com.github.naresh-criticalriver'
                 artifactId = 'RayRowLibrary'
-                version = '2.2.4'
+                version = '2.2.5'
             }
         }
     }

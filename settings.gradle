@@ -10,6 +10,11 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        flatDir {
+           // D:\AndroidProjects\PayRowAPP\PayRowLibrary\libs
+           // dirs('/src/main/libs')
+            dirs('/PayRowLibrary/libs')
+        }
     }
 }
 rootProject.name = "PayRowAPP"

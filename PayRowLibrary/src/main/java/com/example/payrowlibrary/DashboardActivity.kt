@@ -21,6 +21,9 @@ class DashboardActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dashboard)
 
+
+
+
         val toastValue = intent.getStringExtra("toast")
         toastValue?.let {
             if(it.isNotEmpty())

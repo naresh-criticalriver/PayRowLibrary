@@ -13,7 +13,7 @@ dependencyResolutionManagement {
         flatDir {
            // D:\AndroidProjects\PayRowAPP\PayRowLibrary\libs
            // dirs('/src/main/libs')
-            dirs('/RayRowLibrary/PayRowLibrary/libs')
+            dirs('/PayRowLibrary/libs')
         }
     }
 }
